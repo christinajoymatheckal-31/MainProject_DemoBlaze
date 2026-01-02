@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="DemoBlazeProject.BaseClass"/>
+       <class name="DemoBlazeProject.HomePageTest"/>
+        <class name="DemoBlazeProject.CategoryListPageTest"/>
+         <class name="DemoBlazeProject.ProductDetailPageTest"/>
+          <class name="DemoBlazeProject.AddToCartTest"/>
+           <class name="DemoBlazeProject.CartPageTest"/>
+            <class name="DemoBlazeProject.RemoveFromCartTest"/>
+             <class name="DemoBlazeProject.PlaceOrderTest"/>
+              <class name="DemoBlazeProject.LoginModuleTest"/>
+               <class name="DemoBlazeProject.SignUpModuleTest"/>
+                <class name="DemoBlazeProject.ContactAboutUsTest"/>
+                 <class name="DemoBlazeProject.NavigationRoutingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

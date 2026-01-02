@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="DemoBlazeProject.PlaceOrderTest">
+        <methods>
+          <include name="invalidCreditCardAccepted"/>
+          <include name="launch"/>
+          <include name="mobileViewPurchaseModalIssue"/>
+          <include name="multipleOrdersOnRapidClicks"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- DemoBlazeProject.PlaceOrderTest -->
+      <class name="DemoBlazeProject.LoginModuleTest">
+        <methods>
+          <include name="PasswordLengthLimit"/>
+          <include name="openLoginModal"/>
+          <include name="ValidLogin"/>
+          <include name="launch"/>
+          <include name="UsernameFieldValidation"/>
+          <include name="cleanUp"/>
+          <include name="LogoutVisibility"/>
+          <include name="LoginPersistence"/>
+          <include name="UsernameLengthLimit"/>
+          <include name="close"/>
+          <include name="SpecialCharactersInUsername"/>
+        </methods>
+      </class> <!-- DemoBlazeProject.LoginModuleTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
